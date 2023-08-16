@@ -1,0 +1,1093 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* style for all   */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:content-box;
+}
+/* style for all   */
+
+/* nav section  */
+.nav-col{
+    background-color: transparent;
+   
+}
+/* nav section  */
+
+/* hero  */
+
+.bg-gradiant{
+    overflow-x: hidden;
+    position: relative;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(186,65,199,0.44019614681810226) 25%, rgba(72,180,185,0.4766107126444328) 50%, rgba(74,20,199,0.375770376509979) 75%, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%); 
+
+}
+
+
+
+.hero-h{
+    
+    font-family: Poppins;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.hero-h::-webkit-scrollbar{
+display: none;
+}
+.hero-para{
+    font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+color: #B0C0E0;
+}
+.hero-para-2{
+    font-family: Poppins;
+    font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0em;
+color: #B0C0E0;
+
+}
+.hero-para-3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+
+}
+.font-size-style{
+    color: #FFFFFF;
+    font-size:30px;
+}
+.glass-card{
+    padding: 10px;
+    color: white;
+    background: rgba( 50, 51, 53, 0.25 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.card-1-sm-text{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.style-card-num{
+    font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.btc-font{
+    color: #5D6588;
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    
+}
+
+/* hero img positions with media  */
+.img-position-btc{
+    position: absolute;
+    top: 150px;
+    left:100px;
+    height:148px;
+    width:237px;
+    
+}
+.img-position-tezos{
+    position: absolute;
+    top: 300px;
+    left:250px;
+    height:148px;
+    width:237px;
+}
+.img-position-swap{
+    position: absolute;
+    top: 300px;
+    right:250px;
+   
+    width:150px;
+}
+
+/* hero img positions with media  */
+
+/* services card    */
+.head-services{
+    margin-top:10vh;
+    font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+
+}
+.head-card{
+    font-family: Poppins;
+font-size:20px;
+font-style: normal;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+
+}
+.img-card{
+    background-color: #2B2B40;
+    padding: 10px;
+    border-radius: 5px;
+}
+.card-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color:#808A9D;
+
+}
+/* services card    */
+
+/* content section   */
+.head-sec-cont{
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+.page-para-5{
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #808A9D;
+}
+/* content section   */
+
+/* laptop section   */
+.img-lap-position{
+position: relative;
+}
+.itc{
+    position: absolute;
+    top: 150px;
+    left: -70px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.eth{
+    position: absolute;
+    top: 50px;
+    right: -10px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+/* laptop section   */
+
+/* graph section */
+.graph-head{
+    font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.graph-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #808A9D;
+}
+.graph-img-position{
+    position: relative;
+}
+.graph-img{
+    position: absolute;
+}
+.img-position{
+    margin-top:-40vh;
+}
+
+/* graph section */
+
+/* mobile section   */
+.mobile-head{
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.mobile-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #808A9D;
+}
+.mobile-head-2{
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.mobile-img-position{
+    position: relative;
+}
+.coin-mobile-1{
+    position: absolute;
+    top: 0;
+    left: 100px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.coin-mobile-2{
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+.coin-mobile-3{
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+/* mobile section   */
+
+/* table    */
+.table-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.table-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+}
+.table-scroll{
+    overflow-x: scroll;
+}
+
+.table-scroll::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+.table-scroll {
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+  }
+
+.table-heading{
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.table-heading-sub{
+    font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+/* .row-style{
+    background-color:black;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row-style-col{
+    background-color:#3459E7;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+table {
+    border-collapse: collapse;
+}
+ td {
+ 
+    text-align:center;
+    padding:5px;
+    background-color:black;
+ 
+  
+}
+.bg-color-set{
+    background-color:blue;
+
+}
+.geeks {
+    border-right:hidden;
+}
+.gfg {
+    border-collapse:separate;
+    border-spacing:0 15px;
+}
+h1 {
+    color:green;
+}
+/* table    */
+
+/* banner section   */
+.banaer-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.banaer-para{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+width: 50%;
+}
+/* banner section   */
+
+/* road-map section   */
+.road-map-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.road-map-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+}
+.card-img-reponsive{
+    position: relative;
+}
+.img-responsive-round{
+    position: absolute;
+    height:50px;
+    width:50px;
+    top: -25px;
+    left: 25px;
+}
+/* road-map section   */
+
+/* Tokenomics section   */
+.Tokenomics-head{
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.Tokenomics-sub-head{
+    font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.Tokenomics-para{
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.Tokenomics-sub-head-1{
+    font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.Tokenomics-para-head{
+    font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 100;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.num-style{
+    font-family: Poppins;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0em;
+text-align: left;
+background-color: #0D2BB2;
+padding: 5px 15px 5px 15px;
+border-radius: 10px;
+width:fit-content;
+box-shadow: 0px 0px 15px 6px rgba(13,43,178,0.77);
+-webkit-box-shadow: 0px 0px 15px 6px rgba(13,43,178,0.77);
+-moz-box-shadow: 0px 0px 15px 6px rgba(13,43,178,0.77);
+}
+.card-text-style{
+    font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.card-radios{
+    border-radius:10px
+}
+/* tokenomics-img-position */
+.tokenomics-img-position{
+    position:relative;
+z-index: 1;
+border-radius: 10px
+}
+.tokenomics-img-position-1{
+position:absolute;
+z-index: 2;
+top: 50px;
+left: -50px;
+-webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.tokenomics-img-position-2{
+    position:absolute;
+    z-index: 1;
+    bottom: -20px;
+    right: -20px;
+    -webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+    }
+    .tokenomics-img-position-3{
+        position:absolute;
+        z-index: 1;
+        bottom: -50px;
+        left: 200px;
+        animation: bounce-2 4s linear infinite;
+        animation-timing-function: ease;
+        }
+        @keyframes bounce-2 {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+        .tokenomics-img-position-4{
+            position:absolute;
+            z-index: 1;
+            top: 400px;
+            right: -90px;
+            animation: bounce-2 4s linear infinite;
+            animation-timing-function: ease;
+            }
+            .tokenomics-img-position-5{
+                position:absolute;
+                z-index: 0;
+                top: 350px;
+                left: -100px;
+                animation: bounce-2 4s linear infinite;
+                animation-timing-function: ease;
+                }
+/* tokenomics-img-position */
+
+/* Tokenomics section   */
+/* mobile section   */
+.mobile-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.mobile-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+width:100%
+}
+/* mobile section   */
+/* earth section   */
+.earth-head{
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.earth-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+}
+
+.card-title-style{
+    font-family: Lexend;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+}
+.card-para-style{
+    font-family: Lexend;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #808A9D;
+}
+.style-card-icon{
+    background-color: #2F324180;
+    padding: 30px;
+    border-radius:10px;
+}
+/* earth section   */
+
+/* <!-- accordion section   --> */
+.accordion-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.accordion-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+width: 50%;
+}
+/* <!-- accordion section   --> */
+
+/* <!-- Tokenomics second section --> */
+.token-sec-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.token-sec-para{
+    font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+}
+.card-border-style{
+max-width: 25rem;
+padding: 1rem;
+color: white;
+border-width: 3px;
+border-style: solid;
+font-size: 24px;
+border:3px solid black ;
+padding: 2rem 1rem;
+min-height: 3em;
+resize: both;
+border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cstyle%3Epath%7Banimation:stroke 5s infinite linear%3B%7D%40keyframes stroke%7Bto%7Bstroke-dashoffset:776%3B%7D%7D%3C/style%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='skyblue' /%3E%3Cstop offset='25%25' stop-color='skyblue' /%3E%3Cstop offset='skyblue' stop-color='skyblue' /%3E%3Cstop offset='skyblue' stop-color='blue' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3' stroke-dasharray='388'/%3E %3C/svg%3E") 1;
+}
+.border-card-head{
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #FFFFFF;
+}
+.border-card-para{
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#808A9D;
+}
+/* <!-- Tokenomics second section --> */
+/* img-trust section   */
+.img-trust-head{
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.img-trust-para{
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color:#A1A7BB;
+}
+.img-trust-head-card{
+font-family: Poppins;
+font-size:20px;
+font-style: normal;
+font-weight: 500;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.img-trust-card-para{
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color:#808A9D;
+}
+
+/* img-trust section   */
+
+/* img  */
+@media screen and (min-width:0px) and (max-width:1024px) {
+    .img-position{
+        margin-top:0vh;
+    }  
+    .img-position-btc{
+       display: none;
+    }
+    .img-position-tezos{
+        display: none;
+    }
+    .img-position-swap{
+        display: none;
+    }
+    .tokenomics-img-position-1{
+        display: none;
+    }
+    .tokenomics-img-position-2{
+        display: none;
+    }
+    .tokenomics-img-position-3{
+        display: none;
+    }
+    .tokenomics-img-position-4{
+        display: none;
+    }
+    .tokenomics-img-position-5{
+        display: none;
+    }
+    .itc{
+        display: none;
+    }
+    .eth{
+        display: none;
+    }
+    .coin-mobile-1{
+        display: none;
+    }
+    .coin-mobile-2{
+        display: none;
+
+    }
+    .coin-mobile-3{
+        display: none;
+
+    }
+}
+@media screen and (min-width:576px) and (max-width:2400px) {
+.card-display-mobile{
+   display: none;
+}
+.md-view-card{
+display:none;
+}
+.corsal-display-only-sm{
+    display: none;
+}
+.earth-mobile-view{
+    display: none;
+}
+.text-only-sm-screen{
+    display: none;
+}
+}
+@media screen and (min-width:0px) and (max-width:576px) {
+    .road-map-img{
+       display: none;
+    }
+    .lg-view-card{
+    display: none;
+    }
+    .only-lg-view{
+        display: none;
+    }
+  .earth-lg-view{
+      display: none;
+  }
+  .only-md-lg-screen{
+      display: none;
+  }
+    }
+   
+/* img */
+ /* font for mobile screen  */
+ @media screen and (min-width:0px) and (max-width:576px) {
+     body{
+         width: 100%;
+         overflow-x: hidden;
+     }
+      .hero-h{
+          font-size:30px;
+          line-height:40px;
+      }
+      .hero-para{
+         margin-top:0px;
+          font-size:16px;
+      }
+      .btn-hero{
+          width:100%;
+      }
+      .hero-para-2{
+        font-size:24px;
+        font-weight: 1000;
+        line-height:40px;
+      }
+      .head-services{
+        font-size:30px;
+        line-height:40px;
+      }
+      .head-sec-cont{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;
+      }
+      .head-services{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;
+      }
+      .graph-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;
+      }
+      .mobile-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+       
+      }
+      .mobile-para{
+          font-size:14px;
+          font-weight: 400;
+          width:100%;
+      }
+      .graph-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .mobile-head-2{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .table-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .table-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .table-heading{
+        font-size:14px;
+        line-height:40px;
+        font-weight: 1000; 
+        margin-left: 10px;
+      }
+      .img-size-sm{
+          width:90px;
+          margin-left:10px
+      }
+      .banaer-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .banaer-para{
+        font-size:14px;
+        font-weight: 400;
+        width:100%;
+      }
+      .road-map-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .road-map-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .Tokenomics-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .Tokenomics-sub-head{
+        font-size:20px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .Tokenomics-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .Tokenomics-sub-head-1{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .Tokenomics-para-head{
+        font-size:20px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .Tokenomics-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .earth-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .accordion-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .accordion-para{
+        font-size:14px;
+        font-weight: 400;
+        width:100%;
+      }
+      .earth-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .earth-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .token-sec-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .token-sec-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .border-card-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .border-card-para{
+        font-size:20px;
+        font-weight: 400;
+        font-weight:1000;
+      }
+      .img-trust-head{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000; 
+      }
+      .img-trust-para{
+        font-size:14px;
+        font-weight: 400;
+      }
+      .img-trust-head-card{
+        font-size:24px;
+        line-height:40px;
+        font-weight: 1000;  
+      }
+      .img-trust-card-para{
+        font-size:14px;
+        font-weight: 400; 
+      }
+}
+/* font for mobile screen  */
+/* hero   */
